@@ -17,7 +17,7 @@ public class SearchPage {
 	WebElement clickSearchBtn;
 	@FindBy(xpath = "//input[@id='search-input']")
 	WebElement EnterKeyValue;
-	@FindBy(xpath = "(//a[normalize-space()='View all'])[1]")
+	@FindBy(xpath = "//a[.='View all']")
 	WebElement clickViewAllbtn;
 	@FindBy(xpath = "//span[@class='ProductItem__Title Heading']")
 	List<WebElement> AllProductTitle;
